@@ -7,6 +7,7 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
     const date = new Date();
     const year = date.getFullYear();
+    
     return (
         <div className='space-up bg-main-blue max-[820px]:min-md-pad max-[860px]:md-pad max-[1040px]:min-lg-pad max-1290:lg-pad min-[1290px]:pad py-8 flex flex-col'>
             <div className='flex max-[600px]:flex-col max-[600px]:h-auto max-[600px]:pb-8 justify-between max-[1190px]:justify-around max-[720px]:justify-between items-center h-52 border-b-[0.5px] border-solid border-mid-gray'>

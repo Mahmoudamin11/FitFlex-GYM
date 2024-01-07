@@ -17,13 +17,19 @@ const Footer = () => {
                     {/* Icons */}
                     <div className="flex gap-4">
                         <span className="text-white rounded-full w-5 h-5 p-5 flex items-center justify-center trans hover:bg-mid-gray cursor-pointer border-[1px] border-solid border-white">
-                            <FontAwesomeIcon icon={faFacebookF} size="lg" />
+                            <a href="https://www.facebook.com/profile.php?id=100009093608419" target="_blank">
+                                <FontAwesomeIcon icon={faFacebookF} size="lg" />
+                            </a>
                         </span>
                         <span className="text-white rounded-full w-5 h-5 p-5 flex items-center justify-center trans hover:bg-mid-gray cursor-pointer border-[1px] border-solid border-white">
-                        <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+                        <a href="https://www.linkedin.com/in/mahmoud-amin-15023025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+                        </a>
                         </span>
                         <span className="text-white rounded-full w-5 h-5 p-5 flex items-center justify-center trans hover:bg-mid-gray cursor-pointer border-[1px] border-solid border-white">
-                        <FontAwesomeIcon icon={faGithubAlt} size="lg" />
+                        <a href="https://github.com/Mahmoudamin11" target="_blank">
+                            <FontAwesomeIcon icon={faGithubAlt} size="lg" />
+                        </a>
                         </span>
                     </div>
                 </div>

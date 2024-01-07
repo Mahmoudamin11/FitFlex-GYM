@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base { 
+    :root { 
+        /* Colors */
+        --main-blue: #121838;
+        --main-gray: #F8F8F7;
+        --mid-gray: #BEBEC0;
+        --main-black: #333;
+        --mid-black: #696969;
+        --main-orange: #F46C38;
+        --main-green: #CEFB48;
+        --font: 'Montserrat', sans-serif;
+    }
+    .trans { 
+        @apply transition-all duration-200;
+    }
+    .pad { 
+        @apply px-48;
+    }
+    .lg-pad { 
+        @apply px-28;
+    }
+    .min-lg-pad { 
+        @apply px-16;
+    }
+    .md-pad { 
+        @apply px-8;
+    }
+    .min-md-pad { 
+        @apply px-4;
+    }
+    .marg { 
+        @apply mx-48;
+    }
+    .lg-marg { 
+        @apply mx-28;
+    }
+    .min-lg-marg { 
+        @apply mx-16;
+    }
+    .md-marg { 
+        @apply mx-8;
+    }
+    .min-md-marg { 
+        @apply mx-4;
+    }
+    .space-up {
+        @apply mt-32;
+    }
+    .play { 
+        @apply rotate-[180deg];
+    }
+    .title { 
+        @apply text-4xl text-main-blue font-bold  m-0;
+    }
+    .imgDiv { 
+        @apply relative border-[15px] border-solid border-main-blue rounded-xl;
+    }
+}
